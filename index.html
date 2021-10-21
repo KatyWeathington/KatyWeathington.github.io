@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
-<link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+	<link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/"/>
+	<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css" />
+
 <style>
-	//header {background-color: #C1C3C4;}
+	.components-grid {
+	      display: grid;
+	      grid-column-gap: 1.4em;
+	      grid-template-columns: auto;
+	      grid-template-rows: auto;
+	}
+        .image-grid {
+              display: grid;
+              grid-template-rows: auto;
+	      display: grid;
+              grid-gap: 1em;
+              grid-template-rows: auto;
+              grid-template-columns: repeat(auto-fit, minmax(calc(var(--page-width) / 12), 1fr));
+	}
+	.container{
+		display:flex;
+		flex-direction:column;
+	}
+	.terminal_nav{
+		display:flex;
+		flex-direction: row;
+		align-items: center;
+	}
+	.terminal_menu{
+		text-align:flex;
+	}
+        @media only screen and (min-width: 70em) {
+		      .components-grid {
+			      grid-template-columns: 3fr 9fr;
+		      }
+	}
+
+</style>
+
+<style>
+	:root {
+		--background-color:#000000;
+		--font-color:#39ff14;
+		--global-font-size: 2vh;
+		--global-line-height: 1.4em;
+		--global-space: 10px;
+		--font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,serif;
+		--mono-font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,serif;
+	}
 </style>
 
 
@@ -12,20 +57,47 @@
 </head>
 
 <body>
-<h1>Katy Weathington</h1>
-
-
-<header class="sticky row cols-sm">
+	<div class="container">
+		<div class="terminal_logo">
+			<h2 class='logo terminal-prompt'>
+				Katy Weathington
+			</h2>
+		</div>
+<!--		<nav class="terminal-menu"> 
+			<ul>
+				<li><a href="index.html" class="button">Home</a> </li>
+				<li><a href="projects.html" class="button">Projects </a> </li>
+				<li><a href="cv.html" class="button">CV & Publications</a> </li>
+			</ul>
+		</nav>
+-->
 	
-		<a href="index.html" class="button"><h2 class="responsive-margin">Home</h2></a>
-		<a href="projects.html" class="button"><h2 class="responsive-margin">Projects</h2></a>
-		<a href="cv.html" class="button"><h2 class="responsive-margin">CV & Publications</h2></a>			
-	
-</header> 
-
-<p>I'm a second year PhD student at University of Colorado Boulder's Department of Information Science. I am co-advised by Jed Brubaker and Brian Keegan, and a member of the IDLab and Column Lab. My research centers on how data about marginalized people, primarily those with queer identities, is made.</p>
+	</div>
+<div class="container">
 
 
+<p>I'm a second year PhD student at University of Colorado Boulder's Department of Information Science. My research aims to critically examine how data about queer and marginalized people is made and used. I have experience using both quantitative and qualitative methods.</p>
+
+
+
+<p>You can find a copy of my CV <a href="docs/cv.pdf">here</a>.</p>
+
+
+<h3>> Current Projects</h3>
+
+<h4>Queerness in Wikidata</h4>
+<p>This project examines how Wikidata, a database styled sister site to Wikipedia, handles queer identities. We examined the evolution of and discussions around the datafied representations of sexuality and gender identity. We pay special attention to the tensions that arose when trying to encapsulate the breadth of queer identities into a rigid database schema.</p>
+
+<h4>Queer Individuals on Wikipedia</h4>
+<p>This study follows our Wikidata project, and hopes to understand the representation and integration of queer individuals into the Wikipedia landscape as a whole. </p>
+
+<h3>> Past Projects</h3>
+
+<h4>Critical Analysis of Crime Mapping Algorithms</h4>
+<p>For this project, we studied two common crime mapping algorithms, KMeans and KDE, and their deployment. We critically analyzed the algorithm itself, as well as interviewing professionals and stakeholders use experience. This project culminated in my Master's thesis, which was defended in April of 2020.</p>
+
+
+</div>
 
 </body>
 </html>
