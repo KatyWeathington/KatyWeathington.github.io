@@ -28,13 +28,12 @@ series.dataFields.name = "name";
 series.dataFields.children = "children";
 series.dataFields.id = "name";
 series.dataFields.linkWith = "link";
-//series.dataFields.color="sourceType";
 
 // Add labels
 series.nodes.template.label.text = "{name}";
-series.nodes.template.tooltipText = "[bold]{name}[/]";
+series.nodes.template.tooltipText = "{name}";
 series.fontSize = 10;
 series.minRadius = 15;
 series.maxRadius = 40;
 series.centerStrength = 0.5;
-series.maxLevels = 2;
+series.maxLevels = 1;
