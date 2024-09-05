@@ -26,9 +26,9 @@ Having explored a wide range of feature-level ideas, we proceeded to create form
 - Encouraged progressive disclosure of information by requesting to unblur profile information
 - Shifted focus to a user's, visualizing liking behavior so that users may learn more about their own preferences and sexuality
 
-# Going Queerer: Blue Sky Ideation 
+# Future and Ongoing Work: Thinking Queerer 
 
-Though the design above shifts the focus of dating apps and reduces reliance on normative gender and sexuality data, in many ways it still resembled the familiar structure of dating apps at its core. Therefore, I chose to continue a step further, and design alternatives that did not start from the perspective of redesigning a dating app, but rather, reimagining dating infrastructures.
+Though the design above shifts the focus of dating apps and reduces reliance on normative gender and sexuality data, in many ways it still resembled the familiar structure of dating apps at its core. Therefore, I chose to continue a step further, and design alternatives that did not start from the perspective of redesigning a dating app, but rather, reimagining dating infrastructures. At the time of this writing, I am currently collecting data in the design workshop phase. 
 
 ## Design Workshops
 
@@ -36,4 +36,8 @@ To facilitate creative, collaborative ideation, trans and non-binary participant
 
 ## Mock-Ups
 
+From the ideas discussed in the workshops, we will select particularly creative, unusual, or well-imagined concepts to mock-up with accompanying features. 
+
 ## Feedback 
+
+We will present our mock-ups to participants from the workshops to get their feedback on seeing their ideas given form. 

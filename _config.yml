@@ -1,5 +1,5 @@
-#theme: jekyll-theme-hacker
+theme: jekyll-theme-slate
 #remote_theme: forty-jekyll-theme
 
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+#tiles-source: pages # accepts "posts" or "pages"
+#tiles-count: 6
