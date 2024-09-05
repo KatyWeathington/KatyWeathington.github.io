@@ -1,5 +1,5 @@
 #theme: jekyll-theme-hacker
-remote_theme: forty-jekyll-theme
+#remote_theme: forty-jekyll-theme
 
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
