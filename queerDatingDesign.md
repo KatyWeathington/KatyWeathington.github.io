@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Reimagining Queer Dating Apps
 image: assets/images/test.jpg
 ---
