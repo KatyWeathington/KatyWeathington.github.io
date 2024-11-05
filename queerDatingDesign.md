@@ -95,9 +95,9 @@ Having explored a wide range of feature-level ideas, we proceeded to create form
 	</div>
 </div>
 <br>
-
+<br>
 <center>Rather than recommending matches based on gender and sexuality categories, profiles would be recommended based on KNN analysis of liking/rejecting behavior.</center>
-
+<br>
 <br>
 <div class="row">
 	<div class="text">
@@ -109,9 +109,9 @@ Having explored a wide range of feature-level ideas, we proceeded to create form
 	</div>
 </div>
 <br>
-
+<br>
 <center>Collected self-reported gender expression rather than gender identity.</center>
-
+<br>
 <br>
 <div class="row">
 	<div class="image">
