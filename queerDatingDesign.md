@@ -3,8 +3,21 @@ layout: splash
 title: Reimagining Queer Dating Apps
 image: assets/images/test.jpg
 ---
-
 <style>
+.row {
+    display: flex;
+    align-items: center;
+}
+.image {
+		flex: 4;
+		background-color:red;
+	}
+.text {
+		flex: 6;
+		padding: 10px;
+}
+</style>
+<!--<style>
 	
 	body{
 		font-size: clamp(19px, 3.7vw, 36px);
@@ -29,7 +42,7 @@ image: assets/images/test.jpg
 		width: 100%;
 		height: auto;
 	}
-</style>
+</style>-->
 
 
 <br/>
@@ -76,7 +89,7 @@ Having explored a wide range of feature-level ideas, we proceeded to create form
 	<div class="image">
 		<img src="/img/vibe.png">
 	</div>
-	<div class="text">
+	<div class="text" style="padding-left: 10px;">
 		<center>Decentered appearance through AI generated "vibes" rather than profile pictures.</center>
 		
 	</div>
@@ -102,7 +115,7 @@ Having explored a wide range of feature-level ideas, we proceeded to create form
 <br>
 <div class="row">
 	<div class="image">
-		<img src="/img/donut2.png">
+		<img src="/img/donut2.png" style="width: 100%; height:auto;">
 	</div>
 	<div class="text">
 		

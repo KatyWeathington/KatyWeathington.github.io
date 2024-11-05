@@ -22,7 +22,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Katy Weathington">
 <meta property="og:title" content="Reimagining Queer Dating Apps">
-<meta property="og:url" content="http://localhost:4000/queerDatingDesign.html">
+<meta property="og:url" content="http://localhost:4000/queerDatingDesign/">
 
 
   <meta property="og:description" content="My personal website.">
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/queerDatingDesign.html">
+<link rel="canonical" href="http://localhost:4000/queerDatingDesign/">
 
 
 
@@ -60,7 +60,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script type="text/javascript">
+<script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
   
 </script>
@@ -80,7 +80,7 @@
 
   </head>
 
-  <body class="layout--splash">
+  <body class="layout--splash" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -143,6 +143,21 @@
 
     <section class="page__content" itemprop="text">
       <style>
+.row {
+    display: flex;
+    align-items: center;
+}
+.image {
+		flex: 4;
+		background-color:red;
+	}
+.text {
+		flex: 6;
+		padding: 10px;
+}
+</style>
+
+<!--<style>
 	
 	body{
 		font-size: clamp(19px, 3.7vw, 36px);
@@ -167,7 +182,7 @@
 		width: 100%;
 		height: auto;
 	}
-</style>
+</style>-->
 
 <p><br /></p>
 <h1 id="reimagining-queer-dating-apps">Reimagining Queer Dating Apps</h1>
@@ -209,7 +224,7 @@ To better understand the values of users, we collected data in two ways. The fir
 	<div class="image">
 		<img src="/img/vibe.png" />
 	</div>
-	<div class="text">
+	<div class="text" style="padding-left: 10px;">
 		<center>Decentered appearance through AI generated "vibes" rather than profile pictures.</center>
 		
 	</div>
@@ -235,7 +250,7 @@ To better understand the values of users, we collected data in two ways. The fir
 <p><br /></p>
 <div class="row">
 	<div class="image">
-		<img src="/img/donut2.png" />
+		<img src="/img/donut2.png" style="width: 100%; height:auto;" />
 	</div>
 	<div class="text">
 		
@@ -331,7 +346,7 @@ To better understand the values of users, we collected data in two ways. The fir
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Katy Weathington</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Katy Weathington</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
